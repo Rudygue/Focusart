@@ -16,3 +16,8 @@ for the aspect of the coding i'm satisfied even it's not the best i think i did 
 
 ![Simulator Screenshot - iPhone 16 - 2024-12-18 at 16 37 28](https://github.com/user-attachments/assets/ab44f075-0778-4332-8798-50f57db85e48)
 ![Simulator Screenshot - iPhone 16 - 2024-12-18 at 16 37 44](https://github.com/user-attachments/assets/7f0c7e79-dc4c-40e7-bf03-1eab4b1efa55)
+
+
+# Credit
+
+Beta Tester–Alessio Garzia Marotta Brusco e Emaunuele Bazzicalupo 
