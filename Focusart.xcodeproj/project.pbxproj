@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F59F2B982D130B1A00D2C8AA /* pigeonstudy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F59F2B962D130B1A00D2C8AA /* pigeonstudy.gif */; };
+		F59F2B992D130B1A00D2C8AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59F2B8E2D130B1A00D2C8AA /* Preview Assets.xcassets */; };
+		F59F2B9A2D130B1A00D2C8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59F2B912D130B1A00D2C8AA /* Assets.xcassets */; };
+		F59F2B9B2D130B1A00D2C8AA /* failed timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F2B932D130B1A00D2C8AA /* failed timer.swift */; };
+		F59F2B9C2D130B1A00D2C8AA /* FocusartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F2B942D130B1A00D2C8AA /* FocusartApp.swift */; };
+		F59F2B9D2D130B1A00D2C8AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F2B922D130B1A00D2C8AA /* ContentView.swift */; };
+		F59F2B9E2D130B1A00D2C8AA /* FuctionGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F2B952D130B1A00D2C8AA /* FuctionGif.swift */; };
+		F59F2B9F2D130B1A00D2C8AA /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F2B902D130B1A00D2C8AA /* Arc.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F556B6D92D08875600F0CC8E /* Focusart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focusart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59F2B8E2D130B1A00D2C8AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F59F2B902D130B1A00D2C8AA /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		F59F2B912D130B1A00D2C8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59F2B922D130B1A00D2C8AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F59F2B932D130B1A00D2C8AA /* failed timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "failed timer.swift"; sourceTree = "<group>"; };
+		F59F2B942D130B1A00D2C8AA /* FocusartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusartApp.swift; sourceTree = "<group>"; };
+		F59F2B952D130B1A00D2C8AA /* FuctionGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuctionGif.swift; sourceTree = "<group>"; };
+		F59F2B962D130B1A00D2C8AA /* pigeonstudy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pigeonstudy.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F556B6DB2D08875600F0CC8E /* timer 23 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "timer 23";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F556B6D62D08875600F0CC8E /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		F556B6D02D08875600F0CC8E = {
 			isa = PBXGroup;
 			children = (
-				F556B6DB2D08875600F0CC8E /* timer 23 */,
+				F59F2B972D130B1A00D2C8AA /* Focusart */,
 				F556B6DA2D08875600F0CC8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +56,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F59F2B8F2D130B1A00D2C8AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F59F2B8E2D130B1A00D2C8AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F59F2B972D130B1A00D2C8AA /* Focusart */ = {
+			isa = PBXGroup;
+			children = (
+				F59F2B8F2D130B1A00D2C8AA /* Preview Content */,
+				F59F2B902D130B1A00D2C8AA /* Arc.swift */,
+				F59F2B912D130B1A00D2C8AA /* Assets.xcassets */,
+				F59F2B922D130B1A00D2C8AA /* ContentView.swift */,
+				F59F2B932D130B1A00D2C8AA /* failed timer.swift */,
+				F59F2B942D130B1A00D2C8AA /* FocusartApp.swift */,
+				F59F2B952D130B1A00D2C8AA /* FuctionGif.swift */,
+				F59F2B962D130B1A00D2C8AA /* pigeonstudy.gif */,
+			);
+			path = Focusart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F556B6D82D08875600F0CC8E /* timer 23 */ = {
+		F556B6D82D08875600F0CC8E /* Focusart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F556B6E72D08875700F0CC8E /* Build configuration list for PBXNativeTarget "timer 23" */;
+			buildConfigurationList = F556B6E72D08875700F0CC8E /* Build configuration list for PBXNativeTarget "Focusart" */;
 			buildPhases = (
 				F556B6D52D08875600F0CC8E /* Sources */,
 				F556B6D62D08875600F0CC8E /* Frameworks */,
@@ -60,10 +94,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F556B6DB2D08875600F0CC8E /* timer 23 */,
-			);
-			name = "timer 23";
+			name = Focusart;
 			packageProductDependencies = (
 			);
 			productName = "timer 23";
@@ -85,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F556B6D42D08875600F0CC8E /* Build configuration list for PBXProject "timer 23" */;
+			buildConfigurationList = F556B6D42D08875600F0CC8E /* Build configuration list for PBXProject "Focusart" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F556B6D82D08875600F0CC8E /* timer 23 */,
+				F556B6D82D08875600F0CC8E /* Focusart */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59F2B982D130B1A00D2C8AA /* pigeonstudy.gif in Resources */,
+				F59F2B992D130B1A00D2C8AA /* Preview Assets.xcassets in Resources */,
+				F59F2B9A2D130B1A00D2C8AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59F2B9B2D130B1A00D2C8AA /* failed timer.swift in Sources */,
+				F59F2B9C2D130B1A00D2C8AA /* FocusartApp.swift in Sources */,
+				F59F2B9D2D130B1A00D2C8AA /* ContentView.swift in Sources */,
+				F59F2B9E2D130B1A00D2C8AA /* FuctionGif.swift in Sources */,
+				F59F2B9F2D130B1A00D2C8AA /* Arc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F556B6D42D08875600F0CC8E /* Build configuration list for PBXProject "timer 23" */ = {
+		F556B6D42D08875600F0CC8E /* Build configuration list for PBXProject "Focusart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F556B6E52D08875700F0CC8E /* Debug */,
@@ -314,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F556B6E72D08875700F0CC8E /* Build configuration list for PBXNativeTarget "timer 23" */ = {
+		F556B6E72D08875700F0CC8E /* Build configuration list for PBXNativeTarget "Focusart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F556B6E82D08875700F0CC8E /* Debug */,
